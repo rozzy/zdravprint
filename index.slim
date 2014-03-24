@@ -3,8 +3,11 @@ html
   head
     meta charset="utf-8"
     link rel="stylesheet" href="style.css"
+
   body
-    img.logo src="img/logo.png" 
+    .logo
+      img src="img/logo.png" 
+    .fake_b
     #hand-wrapper
       .caption
         h1.main_title Новый фиксатор<br/>с доступом к коже
@@ -31,3 +34,14 @@ html
           .column.c_colors: img src="img/4.png"
           .column.c_colors: img src="img/5.png"
           .column.c_colors: img src="img/6.png"
+
+    .mapbox
+      .contacts
+        span.mail mail@zdravprint.ru
+        span.phone 8 (952) 181-42-41
+        .bg
+      #map
+
+  script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+  script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"
+  script src="js/grayscale.js"
