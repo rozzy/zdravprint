@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  text-align: center;
+  color: #4e4e4f;
+  font-size: 30px; }
+
+h2.dark_h {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  margin: 25px 0;
+  margin-bottom: 40px; }
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  background: white;
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
+.fake_b {
+  height: 100px; }
+
+.hand {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 50%;
+  float: left; }
+
+#hand-wrapper {
+  overflow: hidden;
+  background: #f2f2f2 url(img/h.png) left center no-repeat;
+  height: 400px; }
+  #hand-wrapper .caption {
+    position: relative;
+    padding-right: 100px; }
+    #hand-wrapper .caption .main_title {
+      font-size: 34px;
+      font-weight: 200;
+      line-height: 46px;
+      text-align: right;
+      margin-top: 80px; }
+    #hand-wrapper .caption a.want_btn {
+      position: absolute;
+      box-sizing: border-box;
+      background: #ffb130;
+      width: 218px;
+      margin-top: 40px;
+      padding: 12px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      display: block;
+      right: 100px; }
+
+#forms-wrapper {
+  overflow: hidden;
+  margin-top: 20px; }
+
+.content {
+  background-color: #4e4e4f;
+  height: 400px;
+  margin: center;
+  padding-bottom: 20px; }
+
+p.how_it_works {
+  padding: 30px 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  font-size: 30px; }
+
+.forms {
+  background-color: white; }
+
+.text {
+  float: right; }
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin-right: 4%; }
+  .column img {
+    margin-bottom: 20px; }
+  .column.c_colors {
+    width: auto; }
+    .column.c_colors img {
+      width: 100px;
+      height: 200px; }
+  .column span.circle_info {
+    color: white; }
+
+.content1 {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.mapbox {
+  margin-top: 40px;
+  position: relative;
+  color: white;
+  height: 400px; }
+  .mapbox .contacts {
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    font-size: 12px; }
+    .mapbox .contacts .bg {
+      opacity: 0.4;
+      background: black;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+    .mapbox .contacts span {
+      margin-left: 100px;
+      z-index: 4;
+      position: absolute; }
+      .mapbox .contacts span.mail {
+        bottom: 60px;
+        font-size: 18px;
+        left: 15px; }
+      .mapbox .contacts span.phone {
+        font-size: 24px;
+        bottom: 120px; }
+  .mapbox #map {
+    width: 100%;
+    height: 400px; }
