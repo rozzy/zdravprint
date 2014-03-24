@@ -4,43 +4,30 @@ html
     meta charset="utf-8"
     link rel="stylesheet" href="style.css"
   body
-    .logo
-      img src="img/logo.png" 
+    img.logo src="img/logo.png" 
     #hand-wrapper
-      .content1
-        .text
-          h1 Новый фиксатор с доступом к коже
-          button yes
+      .caption
+        h1.main_title Новый фиксатор<br/>с доступом к коже
+        a.want_btn href="#" Хочу
     .content
-      p Как это работает?
-      p
+      p.how_it_works Как это работает?
       center
-        .contentBox style=("margin:0px auto; width:70%") 
-          #column1 style=("float:left; margin:0; width:33%;") 
-            img src="img/круг1.png" 
-              h2 Как это работает?
-          #column2 style=("float:left; margin:0;width:33%;") 
-            img src="img/круг2.png" 
-              h2 Как это работает?
-          #column3 style=("float:left; margin:0;width:33%") 
-            img src="img/круг3.png" 
-              h2 Как это работает?
+        .column
+          img src="img/circle1.png" 
+          span.circle_info Травмированная рука
+        .column
+          img src="img/circle2.png" 
+          span.circle_info 3D-скан или результат томографии
+        .column
+          img src="img/circle3.png" 
+          span.circle_info Индивидуальный фиксатор
     #forms-wrapper
       .forms
-        p
+        h2.dark_h Подчеркни индивидуальность цветом
         center
-          p1 Подчеркни индивидуальность цветом
-        p
-        center
-          #column1 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/1.png" weight="100px" 
-          #column2 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/2.png" weight="100px" 
-          #column3 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/3.png" weight="100px" 
-          #column4 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/4.png" weight="100px" 
-          #column5 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/5.png" weight="100px" 
-          #column6 style=("float:left; margin:0; width:16%;") 
-            img height="200px" src="img/6.png" weight="100px" 
+          .column.c_colors: img src="img/1.png"
+          .column.c_colors: img src="img/2.png"
+          .column.c_colors: img src="img/3.png"
+          .column.c_colors: img src="img/4.png"
+          .column.c_colors: img src="img/5.png"
+          .column.c_colors: img src="img/6.png"

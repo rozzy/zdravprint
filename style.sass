@@ -1,5 +1,13 @@
+@import compass/css3
+@import compass/reset
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic)
+
+body
+  font-family: 'Open Sans', sans-serif
+
 .logo
-  padding-top: 20px
+  padding-top: 30px
+  padding-bottom: 20px
   padding-left: 80px
 
 .hand
@@ -12,6 +20,33 @@
   overflow: hidden
   background: #f2f2f2 url(img/h.png) left center no-repeat
   height: 400px
+  
+  .caption
+    position: relative
+    $catption_margin: 100px
+    padding-right: $catption_margin
+    
+    .main_title
+      font-size: 34px
+      font-weight: 200
+      line-height: 46px
+      text-align: right
+      margin-top: 80px
+
+    a.want_btn
+      position: absolute
+      box-sizing: border-box
+      background: #ffb130
+      width: 218px
+      margin-top: 40px
+      padding: 12px
+      text-align: center
+      color: white
+      text-decoration: none
+      +border-radius(6px)
+      text-transform: uppercase
+      display: block
+      right: $catption_margin
 
 #forms-wrapper
   overflow: hidden
@@ -21,8 +56,9 @@
   height: 400px
   margin: center
 
-p
-  padding-top: 50px
+p.how_it_works
+  padding: 30px 0
+  font-weight: 300
   text-align: center
   color: white
   font-size: 30px
@@ -33,12 +69,38 @@ p
 .text
   float: right
 
+.column
+  display: inline-block
+  vertical-align: top
+  width: 220px
+  margin-right: 4%
+
+  img
+    margin-bottom: 20px
+
+  &.c_colors
+    // margin-right: 0px
+    width: auto
+    img
+      width: 100px
+      height: 200px
+
+  span.circle_info
+    color: white
+
+
 .content1
   width: 960px
   margin: 0 auto
   overflow: hidden
 
-p1
+h1
   text-align: center
   color: #4E4E4F
   font-size: 30px
+
+h2.dark_h
+  font-size: 24px
+  font-weight: 100
+  text-align: center
+  margin: 25px 0
